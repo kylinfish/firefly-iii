@@ -26,13 +26,13 @@ use FireflyIII\Providers\ImportServiceProvider;
 
 
 return [
-    'name'            => envNonEmpty('APP_NAME', 'Firefly III'),
+    'name'            => envNonEmpty('APP_NAME', '麟寧的小豬撲滿'),
     'env'             => envNonEmpty('APP_ENV', 'production'),
     'debug'           => env('APP_DEBUG', false),
     'url'             => envNonEmpty('APP_URL', 'http://localhost'),
     'timezone'        => envNonEmpty('TZ', 'UTC'),
-    'locale'          => 'en_US',
-    'fallback_locale' => 'en_US',
+    'locale'          => 'zh_TW',
+    'fallback_locale' => 'zh_TW',
     'key'             => env('APP_KEY'),
     'cipher'          => 'AES-256-CBC',
     'providers'       => [
